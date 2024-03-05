@@ -2,7 +2,7 @@ mod rust_criu_protobuf;
 
 use anyhow::{Context, Result};
 use protobuf::Message;
-use rust_criu_protobuf::rpc;
+pub use rust_criu_protobuf::rpc;
 use std::error::Error;
 use std::fs::File;
 use std::io::{Read, Write};
